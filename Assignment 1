@@ -1,0 +1,49 @@
+package edu.cgcc.cs161;
+//HEADER
+//Program Name: Assignment 1
+//Author: Kalena Calloway
+//Class: CS161 Fall 2020
+//Date: 01/10/2021
+//Description: Homework assignment that says hello world three times using different forms of variables. 
+
+public class Assignment1 {
+
+	
+	public static void main(String[] args) {
+		
+		
+		novariable();
+		localvariable();
+		staticvariable ();
+	}
+	
+	
+    public static void novariable() {
+		
+		System.out.println("Hello World");
+		
+	}
+    
+    public static void localvariable() {
+		
+		String Hi;
+		
+		Hi = "Hello World";
+		
+		System.out.println(Hi);
+		
+	}
+	
+	public static void staticvariable() {
+		
+		goodmorning();
+		
+	}
+	
+	public static void goodmorning() {
+		
+		System.out.println("Hello World");
+		
+	}
+
+}
